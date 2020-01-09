@@ -1,0 +1,470 @@
+/*
+ *
+ * mainhome.css
+ * Author: Brian M
+**/
+
+
+#intro{
+  background: url("../img/headerBackground1.jpg");
+  color: rgba(255, 255, 255, 0.95);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 1600px;
+}
+
+#header nav ul {
+	margin: 0;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline-block;
+	margin-left: 0.5em;
+	font-size: 0.9em;
+}
+
+#header nav ul li a, .divDft a {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+	height: 3px;
+	line-height: 2em;
+	padding: 0 0.5em 0 0.5em;
+	outline: 0;
+}
+
+#preH{
+  width: 100px;
+  color: rgba(0,0,0,0);
+}
+
+#btnFhp{
+  background-color: rgba(255, 0, 1, 2);
+	border: 3px;
+	border-radius: 3.5em;
+	color: rgba(255, 255, 255, 0.95);
+  height: 50px;
+  width: 250px;
+  border-color: red;
+  border-style: solid;
+}
+
+#btnSign{
+  background-color: rgba(25,2,2,0.0);
+	border: 2px;
+	border-radius: 3.5em;
+	color: rgba(255, 255, 255, 0.95);
+  height: 30px;
+  width: 100px;
+  border-color: white;
+  border-style: solid;
+  text-align: center;
+}
+
+#divFpp{
+  text-align: center;
+}
+
+.preB {
+  height: 2px;
+}
+
+.divH {
+  height: 250px;
+}
+
+#divMeet {
+  height: 50px;
+  width: 1600px;
+  text-align: center;
+}
+
+/*/////////////////////////////
+// Meet partner 4 u best holiday.
+//////////////////////////////
+*/
+
+.divMeetph0 {
+  position: relative;
+  height: 410px;
+  width: 1400px;
+  left: 100px;
+  right: 100px;
+  //border: groove 10px green;
+  //column-count: 4;
+  //column-gap: 5px;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+.divMeetph {
+  position: relative;
+  height: 410px;
+  width: 1400px;
+  left: 100px;
+  right: 100px;
+  //border: groove 10px green;
+  column-count: 4;
+  column-gap: 5px;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+.divMeetp {
+  position: relative;
+  height: 160px;
+  width: 350px;
+  //border: groove 5px brown;
+}
+
+.divMeetpp {
+  position: relative;
+  height: 200px;
+  width: 350px;
+  //border: groove 8px red;
+  //background-color: gold;
+}
+
+.divMeetpartner {
+  height: 160px;
+  width: 350px;
+  bottom: 0px;
+  //border: solid 5px red;
+  border-radius: 100%;
+
+}
+
+.divMeetpartner img {
+  height: 150px;
+  width: 150px;
+  border: solid 5px white;
+  border-radius: 100%;
+}
+
+.divMeetpartnerb {
+  height: 70px;
+  width: 70px;
+  //border: groove 5px white;
+  right: 70px;
+  bottom: 0px;
+  //border-radius: 100%;
+}
+
+.divMeetpartnerb img {
+  height: 70px;
+  width: 70px;
+  border: solid 5px white;
+  border-radius: 100%;
+  //bottom: 0px;
+}
+
+.divMeetpartner02 {
+  height: 50px;
+  width: 50px;
+  //border: groove 2px green;
+  //border-radius: 100%;
+  bottom: 0px;
+  left: 225px;
+}
+
+.divMeetpartner02 img {
+  height: 50px;
+  width: 50px;
+  //border: solid 3px red;
+  //border-radius: 100%;
+}
+
+//
+.divPartner01 {
+  position: relative;
+  //background-color: brown;
+  //border: groove 1px brown;
+  width: 130px
+  height: 130px;
+}
+
+
+/*/////////////////////////////////
+//partner1
+*/
+
+//1
+#divP1aa {
+  //background-color: indigo;
+  position: absolute;
+}
+
+#divP1bb, #divP2bb, #divP3bb, #divP4bb {
+  position: absolute;
+}
+
+#divP1cc {
+  //background-color: #FF4E50;
+  position: absolute;
+}
+
+#divP2cc {
+  //background-color: #18D4CA;
+  position: absolute;
+}
+
+#divP3cc {
+  //background-color: #FFA710;
+  position: absolute;
+}
+
+#divP4cc {
+  //background-color: #667DF3;
+  position: absolute;
+  transform: rotate(-30deg);
+}
+
+/*/////////////////////////
+// See other partners.
+///////////////////////////////
+*/
+
+#divSop1 {
+  text-align: center;
+  width: 1600px;
+  height: 120px;
+}
+
+#btnSop{
+  background-color: rgba(255,255,255,0.1);
+	border: 3px;
+	border-radius: 9.5em;
+  border-color: rgba(255, 0, 1, 2);
+	color: rgba(255, 0, 1, 2);
+  height: 60px;
+  width: 190px;
+  border-style: solid;
+}
+
+/*//////////////////////////////////////
+// Discover holiday activity ideas.
+////////////////////////////////////////
+*/
+
+#divDiscover {
+  text-align: center;
+  width: 1600px;
+  height: 50px;
+}
+
+.divDhactivity1 {
+  position: relative;
+  height: 500px;
+  width: 1400px;
+  text-align: center;
+  left: 100px;
+}
+
+#divDiscover1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#divDiscover2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#divDiscover3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#divActivity1a {
+  //background: url("../img/imgs/block1Sports.jpg");
+  background: url("../img/part1.jpg");
+  background-color: gold;
+  height: 450px;
+  width: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#divActivity1b {
+  //background: url("../img/imgs/block2Wellness.jpg");
+  background: url("../img/part1.jpg");
+  background-color: gold;
+  height: 450px;
+  width: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#divActivity1c {
+  //background: url("../img/imgs/block3Expeditions.jpg");
+  background: url("../img/part1.jpg");
+  background-color: gold;
+  height: 450px;
+  width: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#divActivity2a {
+  background: url("../img/imgs/block4Games.jpg");
+  background-color: gold;
+  height: 450px;
+  width: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#divActivity2b {
+  background: url("../img/imgs/block5Culture.jpg");
+  background-color: gold;
+  height: 450px;
+  width: 920px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#divActivity3a {
+  background: url("../img/part1.jpg");
+  background-color: gold;
+  height: 450px;
+  width: 920px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#divActivity3b {
+  //background: url("../img/imgs/block7Travelling.jpg");
+  background: url("../img/part1.jpg");
+  background-color: gold;
+  height: 450px;
+  width: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+}
+
+#divDiscover1 a, #divActivity2a a, #divActivity3b a {
+  display: block;
+  outline: 0;
+  line-height: 450px;
+  text-decoration: none;
+  color: inherit;
+  height: 450px;
+  width: 450px;
+  text-align: center;
+}
+
+#divActivity2b a, #divActivity3a a {
+  display: block;
+  outline: 0;
+  line-height: 450px;
+  text-decoration: none;
+  color: inherit;
+  height: 450px;
+  width: 920px;
+  text-align: center;
+}
+
+#divDiscover1 a:hover, #divDiscover2 a:hover, #divDiscover3 a:hover {
+  color: black;
+  text-align: center;
+}
+
+/*/
+//Views
+*/
+
+.divViewp {
+  position: relative;
+  background-color: rgba(255, 250, 241, 2);
+  width: 1580px;
+  left: 10px;
+}
+
+/*//////////////////////////
+// Footer
+///////////////////////////
+*/
+
+.preDfp {
+  position: relative;
+  //top: 3020px;
+}
+
+#divFooter {
+  height: 450px;
+  width: 1400px;
+}
+
+#preDfp1 {
+  position: relative;
+  //top: 3030px;
+  left: 1px;
+  right: 1px;
+  height: 10px;
+  width: 1600px;
+}
+
+#preDfp1 hr {
+  color: #ff0012;
+  margin: 2px;
+  line-height: 6px;
+  border: 2px solid red;
+}
+
+.divDf {
+  position: relative;
+  //top: 3050px;
+  left: 100px;
+  right: 100px;
+  height: auto;
+  width: auto;
+  column-count: 4;
+  column-gap: 2px;
+  text-align: left;
+}
+
+.divDft {
+  height: 350px;
+  width: auto;
+}
+
+.divDft a {
+	color: inherit;
+	text-decoration: none;
+	height: 10px;
+	line-height: 2em;
+	outline: 0;
+}
+
+.divDft p {
+  height: 20px;
+}
+
+#divDfc6 {
+  color: #ff0012;
+  height: 20px;
+}
+
+.plogo {
+  height: 1px;
+}
+
+/*////////////////////////////////////
+///////// done: 2019, 2020 ///////////
+/////////////////////////////////////
+*/
